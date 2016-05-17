@@ -1,0 +1,78 @@
+Answer_count,Body,Creation_date,Is_answered,Link,Question_id,Score,Tags,Title,View_count,Reputation,User_id
+0,"<p>I took a java class and a VB class this semester in college. I was able to pass both classes with a low C. It was very difficult for me, and I barely survived the class. I now can read code and can tell you what is going to do and what it is going to print to the screen. However, I still can't write code very well at all. I mean, I can create ints, arrays, strings, and can assign variables, but I still can't write the code from scratch. Any tips? I'm studying information science in college, and I'm going to need to learn this because I'm most likely going to wind up a programmer. </p>
+",1386649804,FALSE,http://stackoverflow.com/questions/20486137/how-do-i-learn-to-write-programs-from-scratch,20486137,0,java,How do I learn to WRITE programs from scratch?,1,1,3085406
+1,"<p>Hello all I have a program that is dealing with accounts and their associated names for example my username is user1234 and my real name is Bob Realname the data is store as <code>""user1224 : Bob Realname""</code> so far my program strips it down to <code>user1234 Bob Realname</code> what I would like to do is get rid of the part that says user1234 and just get the result Bob Realname. </p>
+",1386649706,FALSE,http://stackoverflow.com/questions/20486115/how-do-i-delete-the-first-part-of-a-string-in-python,20486115,0,python string,How do I delete the first part of a string in python,8,43,2649920
+5,"<p>I tried using final keyword to array but still i can change the values, why arrays are not supporting final.</p>
+
+<p>Thanks in advance</p>
+",1386649500,TRUE,http://stackoverflow.com/questions/20486074/why-final-is-not-applicable-to-array-in-java,20486074,0,java,Why final is not applicable to array in Java?,26,1,2099274
+0,"<p>I have a application that fills in fields on a form (paper size) which I need to save however the form does not fit on smaller screens therefore when I capture it, it's missing part of the form. what would be the best way to go about capturing the offscreen part</p>
+",1386649779,FALSE,http://stackoverflow.com/questions/20486133/draw-large-off-screen-form-to-bitmap,20486133,0,c# image bitmap gdi,Draw large off screen form to bitmap,2,26,1137759
+0,"<p>I have a div with animation when you scrolls down and up, the problem is that when I scroll up and down very fast without letting the div to complete its animation the div little by little gets out of the screen in the upper part.</p>
+
+<p>If I remove the .stop() in the .animate() function and scroll up and down very fast, the div keeps doing this for a while.</p>
+
+<p>I want to keep the animation when scrolled up and down with the only difference that the menu does not get out of the screen when scrolling up and down fast, I have look thorough stack overflow questions like this one but nothing that I found work the code of the jsfiddle can be found here:</p>
+
+<p><a href=""http://jsfiddle.net/QLLkL/4/"" rel=""nofollow"">http://jsfiddle.net/QLLkL/4/</a></p>
+
+<pre><code>$(window).scroll(function(){
+    if($(window).scrollTop() &gt; 480 &amp;&amp; !animationStarted){
+         $(""#menu"").stop().animate({ ""top"": ""+=180px"" }, 1000);
+        animationStarted  = true;
+    };
+    if($(window).scrollTop() &lt; 480 &amp;&amp; animationStarted){
+         $(""#menu"").stop().animate({ ""top"": ""-=180px"" }, 1000);          
+        animationStarted  = false;
+    };        
+});
+</code></pre>
+",1386649775,FALSE,http://stackoverflow.com/questions/20486131/make-a-div-to-return-to-its-original-position-when-scrolled-up,20486131,0,javascript jquery jquery-ui,Make a Div to return to its original position when scrolled up,2,1,2879138
+0,"<p>I have to create and retain hundreds of thousands of objects for my app. I've noticed in Chrome that sometimes when I load the page, it will take longer than usual to create the objects even though I have done 0 code changes. Then, after the objects are created, the page will run slower than usual; often times the CPU profiler will either say it's GC or some random function using the majority of the CPU. Like I said, sometimes I'll refresh the page without any code changes at all and I won't see this behavior. The two go hand in hand: if the objects are created slowly for whatever reason, the page WILL run slowly and say it is a random function or GC.</p>
+
+<p>In IE, the page runs as I'd expect it to as usual.</p>
+
+<p>You can't diagnose anything without seeing thousands of lines of code, but does anyone have any ideas for me? Why would Chrome exhibit that behavior? Any easy tweaks I could try? Thanks!</p>
+",1386649774,FALSE,http://stackoverflow.com/questions/20486130/chome-garbage-collection,20486130,0,javascript google-chrome memory garbage-collection,Chome garbage collection,2,1073,273270
+0,"<p>I have 2 forms on the same page. One is called from 'A'. Other one is called form 'B'.</p>
+
+<p>Form A is dynamically loaded with the values getting from a database.</p>
+
+<p>Form B has 56 inputs. Each input of form B has unique ids' which are the values of form A's inputs. Number of inputs </p>
+
+<p>appearing on form 'A' may be different due to client's previous requests.</p>
+
+<p>Form 'A's all inputs have the same name (Aname) but values are different.</p>
+
+<p>Each and every input of form 'A' has a value and also in form 'B' you can find a corresponding input for each value from form </p>
+
+<p>'B'. The css class of the inputs of form 'A', should apply for each corresponding input of form'B'.</p>
+
+<p>The fact is: form A's inputs' values have been printed as the id(s) of each input of form 'B'.</p>
+
+<p>Number of inputs of form B is fixed. That is ""56"".</p>
+
+<p>Number of generated inputs of form A may be different from one user to another. Anyhow the maximum number of inputs of form A is also ""56"".</p>
+
+<p>For example,
+enter code here</p>
+
+<pre><code>&lt;form name=""A""&gt;
+&lt;input type=""text"" name=""alreadybooked"" value=""2"" disabled=""disabled"" class=""red""&gt;
+&lt;input type=""text"" name=""alreadybooked"" value=""5"" disabled=""disabled"" class=""red""&gt;
+&lt;input type=""text"" name=""alreadybooked"" value=""3"" disabled=""disabled"" class=""red""&gt;
+&lt;/form&gt;
+&lt;form name=""B""&gt;
+    &lt;input type=""button"" value=""0"" class=""btn-submit"" id=""1"" data-assetid=""1""&gt;
+    &lt;input type=""button"" value=""0"" class=""btn-submit"" id=""2"" data-assetid=""1""&gt;
+    &lt;input type=""button"" value=""0"" class=""btn-submit"" id=""3"" data-assetid=""1""&gt;
+   &lt;input type=""button"" value=""0"" class=""btn-submit"" id=""4"" data-assetid=""1""&gt;
+    &lt;input type=""button"" value=""0"" class=""btn-submit"" id=""5"" data-assetid=""1""&gt;
+    &lt;/form&gt;
+</code></pre>
+
+<p>Accordingly the example, the css class ""red"" should be applied on form 'B's first, third and fifth inputs.</p>
+
+<p>How can I do this with jQuery please?</p>
+",1386647644,FALSE,http://stackoverflow.com/questions/20485732/how-to-search-for-a-set-of-specific-vales-of-values-in-inputs-of-one-table-agai,20485732,0,javascript jquery,"How to search for a set of specific vales of values in inputs of one table, against the other table&#39;s id(s) values to add css",15,1,2982917
